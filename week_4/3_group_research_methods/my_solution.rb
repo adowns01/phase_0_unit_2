@@ -19,18 +19,58 @@ end
 #
 
 # Person 2
+
+
+# Create a my_array_modification_method that takes an array and number to be added to all internal numbers. (Because you can never have too many pets!) For example:
+
+# my_array_modification_method(i_want_pets, 1) 
+# #=> ["I", "want", 4, "pets", "but", "I", "only", "have", 3, ":(." ] 
+# Then create a method that updates the ages in the hash. For Example:
+
+# my_hash_modification_method(my_family_pets_ages, 2) 
+# #=> {"Evi" => 8, "Hoobie" => 5, "George" => 14, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
+
+
+
+
+
+
+
 def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
+  len = source.length; # find the number of elements in the array
+  # for each element in the array see if it is a string
+  0.upto(len - 1) do |loc|
+  	# if the element is NOT a string, add thing_to_modify to it
+  	if source[loc].is_a?(String) === false
+  		source[loc] += thing_to_modify
+  	end
+  end
+  return source
 end
 
+  
 def my_hash_modification_method(source, thing_to_modify)
-  # Your code here!
+
+	source.each {|name, age| source[name] += thing_to_modify}
+
+	return source 
 end
+
+
 
 # Identify and describe the ruby method you implemented. 
 # 
-#
-#
+# name: my_array_modification_method (source, thing_to_modify)
+# input: source = an array
+# 		 thing_to_modify = a number
+# function: all numbers in the array are increaed by thing_to_modify
+# output: an array
+
+# name: my_hash_modification_method(source, thing_to_modify)
+# input: source = a hash
+# 		 thing_to_modify = a number
+# function: all hash values are increaed by thing_to_modify
+# output: a hash
 
 
 # Person 3
