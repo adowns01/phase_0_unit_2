@@ -119,7 +119,14 @@ p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie
 
 # Reflect!
 # 
-# 
-# 
-# 
-# 
+#  
+#  I like how the challenges are made to engage us, rather than just strictly teach us coding
+#  
+# This challenge really emphasied the differences in my new accountability group from the last
+# one and I realized I should work on my commuinication more. 
+
+# I really enjoy that the challenges let us figure out how to solve the problems rather 
+# than telling us which methods to use when. 
+
+
+
