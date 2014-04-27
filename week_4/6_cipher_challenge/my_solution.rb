@@ -1,7 +1,7 @@
 # U2.W4: Cipher Challenge
 
 
-# I worked on this challenge with: .
+# I worked on this challenge with: Jeuel Wilkerson .
 
 
 
@@ -188,6 +188,26 @@ puts north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvm
 # ~ use ascii numbers to replace hash's
 
 # Reflection
+
+# I really, really enjoyed working with Jeuel for this challenge. 
+# This was def. one of the most difficult and most rewarding pairing sessions I've had. 
+
+# The hardest part was stopping. I know there is so much more I could do to clean up this code. 
+# Just looking at it now makes me want to clean it up more! But I was really happy that we got
+# the de-ciphering functions to work. I knew it would be harder than our other challenges going in
+# because there are so many easy mistakes to make, which we did make, but eventually found. 
+
+# When prepping before even pre-phase 0, I actually made my own caear cipher in JS on a little website
+# I made, so I was already a little more prepraed than my partner. My goal was to push those thoughts
+# out of my mind (though, not entirely), but to try to find where Jeuel and my teamwork took us naturally. 
+
+# Something that took us awhile, that I learned, was about these lines: 
+# if decoded_sentence.match(/\d+/) #What is this matching? Look at Rubular for help. 
+#     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } #He's been known to exaggerate...
+#   end  
+# I had seen similar symbols in the pre-written test code before, but I never *quite* knew what it meant. 
+# I don't think I could write it myself, but I'm getting better at desciphering them. Figuring that out 
+# was one of the great moment of Jeuel and I working together. 
 
 
  
