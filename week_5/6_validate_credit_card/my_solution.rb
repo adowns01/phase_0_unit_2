@@ -183,7 +183,7 @@ class CreditCard
   end
 
   def check_card()
-    # first double ever other number in the array
+    # first double every other number in the array
     double_array = double_evens()
     # then split the double digit numbers into single digits
     single_digit_array = split_double_digits(double_array)
