@@ -291,5 +291,18 @@ puts $!.message == "Should be 16 numbers"
 
 # 5. Reflection 
 
+# This challenge ended up beingmore difficult than I expected. There was just a combination of lots 
+# of little things that needed to be done that easily got confused. I decided to really conquor this 
+# challenge by refactoring it a 2nd time. I really wanted to right it neatly, conscisesly, and in 
+# a way that makes sense. After the 2nd refraction I started to feel proud of my code, which is a
+# great feeling. 
+
+# From this challenge, I really felt like I saw how much difference refactoring should do. Even though
+# our first attempt worked, we needed to redo it. That was really my ah ha moment. The other challenges 
+# were short enough, that I did little refactoring and what I did didn't take much time. But this challenge 
+# was much longer and took much more time to refactor, especially without messing anything up! 
+
+# I look forward to seeing how other people completed this challenge. 
+
 
 
