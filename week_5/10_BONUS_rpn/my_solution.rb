@@ -160,3 +160,15 @@ puts test2.solve() == 14
 
 
 # 5. Reflection 
+
+# I am really facinated by reverse polish notation. Though I will admit I have spent several CS
+# class periods devoted to us coming up with a method to not use parentesis for math equations. 
+# and eventually we came up with RPN with some helpfully leading of our professor. So I was already
+# intimately aquainted with RPN. 
+
+# Overall I had a lot of fun with this challenge. I look forward to similar challenges, that I 
+# haven't encountered before in the future. 
+
+
+
+
