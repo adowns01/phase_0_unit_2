@@ -1,22 +1,55 @@
-# U2.W5: Bakery Challenge GPS
+# U2.W5: The Bakery Challenge (GPS 2.1)
 
-# I worked on this challenge with: 
-
-
-
-
+# Your Names
+# 1) Bridgette Salcido 
+# 2) Amelia Downs
 
 
-# Our Refactored Solution
+# We didn't save our origional solution sorry. I can promise you that we changed a lot for the refactored version. 
 
 
+ # This is the file you should end up editing. 
+ 
+def dessert_qty(num_of_people, my_list)
 
+  treat_qty = []
+  
+  my_list.each do |treat, num|
+    if ((num_of_people /  num) > 0)
+        treat_qty.push(num_of_people / num)
+       num_of_people = num_of_people % num
+     else 
+       treat_qty.push(0)
+    end 
+  end
+  
+   return "You need to make #{treat_qty[0]} pie(s), #{treat_qty[1]} cake(s), and #{treat_qty[2]} cookie(s)."
+  
+end 
+ 
+def bakery_num(num_of_people, fav_food)
+  my_list = {"pie" => 8, "cake" => 6, "cookie" => 1}
+  pie_qty = 0
+  cake_qty = 0
+  cookie_qty = 0
+  
+  if my_list.has_key?(fav_food) == false
+        raise ArgumentError.new("You can't make that food")
+  end
 
+   fav_food_qty = my_list[fav_food]
+   
+    if num_of_people % fav_food_qty == 0 
+      num_of_food = num_of_people / fav_food_qty
+      return "You need to make #{num_of_food} #{fav_food}(s)."
+      
+    end
+     dessert_qty(num_of_people, my_list)
 
+end
+ 
 
-
-
-
+#-----------------------------------------------------------------------------------------------------
 #DRIVER CODE-- DO NOT MODIFY ANYTHING BELOW THIS LINE (except in the section at the bottom)
 # These are the tests to ensure it's working. 
 # These should all print true if the method is working properly.
@@ -29,11 +62,5 @@ p bakery_num(130, "pie") == "You need to make 16 pie(s), 0 cake(s), and 2 cookie
 
 # You SHOULD change this driver code. Why? Because it doesn't make sense.
 p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)." # WHAAAAAT? I thought I said I wanted cake!
-
-
-
-
-#  Reflection 
-
-
-
+ 
+ 
