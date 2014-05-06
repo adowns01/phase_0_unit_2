@@ -85,7 +85,8 @@ class RPNCalculator
   		if (x.ord <=57 && x.ord >=48)
   			stack.push (x.to_i) 
   		# if it is a symbol, pop two items from the stack 
-  		# an preform that calculation
+  		# and preform that calculation
+  		# then push that answer!
   		else 
   			num1 = stack.pop()
   			num2 = stack.pop()
@@ -95,7 +96,7 @@ class RPNCalculator
 
   	end
   	# if there is more than one number in the stack, 
-  	# the origional input was invalid
+  	# the original input was invalid
   	valid_answer?(stack)
   	# the first (and only) element in the stack is the correct answer 
   	return stack[0]
