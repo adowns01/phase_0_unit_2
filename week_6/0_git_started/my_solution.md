@@ -13,6 +13,7 @@ and try out the different directions.
 
 #### checkout
 <!-- Your defnition here -->
+Checkout will switch to a specified branch. 
 
 #### clone
 <!-- Your defnition here -->
@@ -28,6 +29,7 @@ Fetching is when you look back at your recent commit, but don't merge the commit
 
 #### log
 <!-- Your defnition here -->
+Log will show a log of your recent changes made in your repo.
 
 #### merge
 <!-- Your defnition here -->
@@ -43,17 +45,32 @@ Push is when you sync your files on your computer with those online.
 
 #### reset
 <!-- Your defnition here -->
-
+Reset will remove a file from a staging area. 
 #### rm
 <!-- Your defnition here -->
+Rm removes a file from the repo. 
 
 #### status
-
+Status shows a log of all files that have been changed from staging. It also provides info on the current branch and its status compared to the master branch.
 
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+git clone [url]
+
 - Fetch changes
+git remote -v
+git remote add upstream [url]
+git fetch upstream
+git checkout master
+git merge upstream/master
+
 - Commit locally
+git add
+git commit -am "notes here"
+git push origin master
 
 ## Release 5: Reflection
+# Im still a bit intimidated using command line over the app, but I'm glad I did this 
+# challenge because it does make it slightly more accessable. I think I will need to 
+# consult my workflow a lot before I actually remember how to do it.
