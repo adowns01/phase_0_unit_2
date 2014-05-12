@@ -100,3 +100,15 @@ fork.eat
 
 
 # 5. Reflection 
+
+# The best part of this challenge was working with Jeff. I can't wait to meet him 
+# IRL and pair with him again. 
+
+# We were able to work on this challenge quickly except when we didn't realize that the 
+# items were being dumped, which is why we were getting an error. 
+
+# Next time I will do a better job of reading through the whole code first, but 
+# trying to fix anything, because that error took us (me) a long time.
+
+# I love how this code is written with very good variable names. 
+# I like being able to see other code, besides my own. 
