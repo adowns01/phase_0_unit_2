@@ -293,3 +293,8 @@ etre
 # work properly with the time constraint (I had plans, so I couldn't work for more
 # than 1.25 hours).
 
+# I did work on diagonal alone and I got it to work, but I'm not happy with the code 
+# yet. It is not dry in any sense. Doing these challenges has really made me reaslize 
+# how important it is to go through my code and refactor it. For my college classes
+# I was usually so busy, I was just happy that it worked. 
+

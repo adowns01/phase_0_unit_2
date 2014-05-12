@@ -56,7 +56,7 @@ class Playlist
 
 	# play every song in playlist
 	def play_all
-		#@playlist.each{|x| x.play }
+		@playlist.each{|x| x.play }
 	end
 
 	# prints playlist
@@ -68,8 +68,9 @@ end
 
 # Refactored Solution
 
-
-
+ 
+# instead of refactoring the code itself, I just added comments, 
+# which is in the code above
 
 
 
@@ -114,3 +115,12 @@ assert{ my_playlist.includes?(lying_from_you) == true}
 
 
 # Reflection 
+
+# I was a little confused by this challenge. I understand the code, but I'm 
+# not sure exactly what each bit is supposed to do. For instance, I wasn't 
+# sure what play was supposed to do. 
+
+# Doing these challenges makes me confident in my coding ability. 
+
+
+

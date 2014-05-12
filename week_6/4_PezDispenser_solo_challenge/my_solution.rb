@@ -121,3 +121,10 @@ assert {super_mario.pez_count() == 12} # BECAUSE YOU CAN'T ADD AN ITEM IF IT IS 
 
 
 # 5. Reflection 
+
+# I like that these challenges give us so much freedom. The more of these
+# challenges I do, the more confident I feel about coding classes. 
+
+# One thing I learned was the %w notation which I will definetly use in the future. 
+# I have often been in the situation where I want to make an array, but typing each item out, with
+# quotes for strings is really annoying. 
